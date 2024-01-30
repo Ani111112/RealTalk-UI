@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup Page</title>
+    <link rel="stylesheet" href="signinstyles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm" class="login-form">
+            <input type="text" id="mobileNumber" placeholder="Mobile" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="button" value="Login" onclick="signIn()">
+        </form>
+        <div class="form-toggle">
+            <a href="index.html">Don't have an account? Sign up</a>
+        </div>
+    </div>
+
+    <script src="signinscript.js"></script>
+</body>
+</html>

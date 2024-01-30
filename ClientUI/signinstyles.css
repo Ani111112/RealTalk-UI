@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    background: linear-gradient(to bottom right, #ff9a9e, #fecfef);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make the button width 100% */
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+#signupForm {
+    width: 100%;
+}
+
+.form-toggle {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-toggle a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+h2{
+    margin-left: 260px;
+    color: black;
+}
